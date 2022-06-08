@@ -1,0 +1,137 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none; font-size: 35px; color: #fff;
+}
+.container{
+    max-width: 1140px; padding-left: 15px; padding-right: 15px; margin: 0 auto;
+}
+:root{
+    --primary-color: #009dff;
+    --font-color: #fff;
+    --second-color: #5db2ff;
+}
+.btn{
+    background-color: var(--primary-color); color: var(--font-color); border-radius: 4px; border: 1px solid var(--primary-color); padding: 10px 24px; transition: .5s;
+}
+.btn:hover{
+    background-color:transparent; color: var(--primary-color);
+}
+.flex{
+    display: flex; justify-content: space-between; align-items: center;
+}
+h3{
+    font-size: 90px; line-height: 48px; font-weight: 500; padding-bottom: 15px; position: relative;
+top : 296px;  color: #fff;
+
+}
+
+/* ========================================================TOP HEADER============================================================== */
+.top-header{
+    background-color: #f5fbff; padding: 12px 0;
+}
+
+.th-icon a{
+    color: #c7c7c7; font-size: 15px; margin-right: 12px; transition: .5s;
+}
+.th-icon a:hover{
+    color: var(--primary-color);
+}
+.th-info a{ 
+    font-size: 13px; color: rgb(92, 178, 255);  margin-left: 50px;
+}
+.th-info span{
+    color: #919191; font-size: 13px; margin-left: 12px;
+}
+/* =============================================================HEAD============================================================= */
+.head{
+    padding: 15px 0; width: 100%; opacity: 0.5;
+}
+ nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color:whitesmoke; 
+    font-weight: 500;
+    font-size: 15px;
+} 
+.bg-img{
+      background-image: url("../img/hero-bg.jpg"); height: 700px; background-size: cover; background-position: center center; background-repeat: no-repeat;  
+     
+      
+   }
+p{
+    top:296px; position: relative;  font-size: 48px; color: #fff;}
+button{
+    position: relative; padding: 15px;
+top : 296px;  
+}
+.btt button:hover{ background-color:transparent; color: #fff;
+}
+/* .spin{
+    width:25px; height: 25px; background-color:gold;border-radius: 50%; position: relative;
+left: 900px;} */
+
+ .bg-img1{  
+         background-image: url("../img/about-bg.jpg"); height: 700px; display: block;  background-size: cover; background-attachment: fixed; background-position: center center; background-repeat: no-repeat; position: relative; 
+     width:100%}  
+     .fst p{
+         font-size: 20px;
+     }
+      .about-imgb img{
+        width: 700px;
+        border: 4px solid rgba(255, 255, 255, 0.2);
+       bottom: -150px; left: -50px;
+       vertical-align: middle;
+       position: relative;
+    } 
+    .about-imgb img:hover{ transform: scale(1.1);
+        transition: 0.5s;
+
+    }
+    .why{
+        width: auto;
+        height: 650px;
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    background-color:#0c0b09;
+    color: #cda45e;
+    }
+.seb{
+    width: 350px;
+    height: 350px;
+    background-color:#966919}
+    .seb p{font-size: 15px; text-align: center; top:125px}
+
+    .seb span{
+        display:block;
+        text-align: center;
+        ;}
+        .seb h2{
+            text-align: center; color: #fff;
+        }
+        #a{
+            color: #fff;
+           padding-bottom: 25px;
+        }
+        .seb:hover{
+            color:#fff;
+            background-color:teal;
+            transform: scale(1.1);
+        transition: 0.5s;
+        }
+      /* .testy{  
+        background-image: url("../img/events-bg.jpg"); height: 700px; display: block;  background-size: cover; background-attachment: fixed; background-position: center center; background-repeat: no-repeat; position: relative; 
+    width:100%; opacity: 0.5;}  */
